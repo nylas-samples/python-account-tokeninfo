@@ -56,4 +56,4 @@ Visit our [Nylas Python SDK documentation](https://developer.nylas.com/docs/deve
 <br />
 
 ## Authors
-- @
+- @tayyabny - Tayyab Patel
