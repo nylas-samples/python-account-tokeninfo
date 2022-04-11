@@ -1,42 +1,57 @@
-# template-empty
-_description: An empty template for your code sample_
+# python-return-token_info
 
-Please include this sample in the [org readme](https://github.com/nylas-samples/.github/blob/main/profile/README.md)?
+This sample will show you to easily return all token information
 
-<br />
+This will return a dictionary which will contain the follow:
+- Created_at
+- Scopes
+- State 
+- Updated_at 
 
-## Installation
+You can follow along step-by-step in our blog post ["How to Send Emails with the Nylas Python SDK"](https://www.nylas.com/blog/how-to-send-emails-with-the-nylas-python-sdk/).
 
-The recommended way to use this sample is ...
+## Setup
 
-You can also clone the repository ...
+### System dependencies
 
-You'll find more detailed instructions ...
+- Python v3.x
 
+### Gather environment variables
 
-<br />
+You'll need the following values:
 
+```text
+ACCESS_TOKEN = ""
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+RECIPIENT_ADDRESS = ""
+```
 
-## FAQ
+Add the above values to a new `.env` file:
 
-Q: 
+```bash
+$ touch .env # Then add your env variables
+```
 
-A: 
+### Install dependencies
 
+```bash
+$ pip3 install nylas
+```
 
-<br />
+## Usage
 
-## Get support
+Run the script using the `python3` command:
 
-If you found a bug or want to suggest a new [feature/use case/sample], please file an issue.
+```bash
+$ python3 ReturnAccount.py
+```
 
-If you have questions, comments, or need help with code, we're here to help:
-- Email us at support@nylas.com
+When this works succesfully you will be able to see all the token information
 
-<br />
+## Learn more
 
-## Contributing
-
+Visit our [Nylas Python SDK documentation](https://developer.nylas.com/docs/developer-tools/sdk/python-sdk/) to learn more.
 ...
 
 <br />
