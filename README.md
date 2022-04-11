@@ -24,7 +24,6 @@ You'll need the following values:
 ACCESS_TOKEN = ""
 CLIENT_ID = ""
 CLIENT_SECRET = ""
-RECIPIENT_ADDRESS = ""
 ```
 
 Add the above values to a new `.env` file:
@@ -44,7 +43,7 @@ $ pip3 install nylas
 Run the script using the `python3` command:
 
 ```bash
-$ python3 ReturnAccount.py
+$ python3 ReturnTokenInfo.py
 ```
 
 When this works succesfully you will be able to see all the token information
